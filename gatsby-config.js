@@ -10,5 +10,14 @@ module.exports = {
     title: "Full-stack Bootcamp",
     author: "Idriss G Ouattara",
   },
-  plugins: ["gatsby-plugin-sass"],
+  plugins: [
+    "gatsby-plugin-sass",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "src",
+        path: `${__dirname}/src/`,
+      },
+    },
+  ],
 }
