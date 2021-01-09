@@ -3,7 +3,7 @@ title: "The Great Gatbsy Bootcamp"
 date: "2020-01-07"
 ---
 
-I just start a new bootcamp
+I just start a new Gatsby bootcamp
 
 ## Topics Covered
 
