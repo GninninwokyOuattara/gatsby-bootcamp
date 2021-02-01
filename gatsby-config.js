@@ -23,7 +23,7 @@ module.exports = {
     {
       resolve: "gatsby-transformer-remark",
       options: {
-        plugin: [
+        plugins: [
           "gatsby-remark-relative-images",
           {
             resolve: "gatsby-remark-images",
