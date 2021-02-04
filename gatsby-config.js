@@ -11,6 +11,7 @@ module.exports = {
     author: "Idriss G Ouattara",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     {
       resolve: "gatsby-source-contentful",
       options: {
